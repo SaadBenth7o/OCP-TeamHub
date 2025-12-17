@@ -8,7 +8,7 @@
 
 **Auteur :** BENDAHOU SAAD  
 **Contexte :** Projet réalisé dans le cadre du stage PFA de 3ème année  
-**Période :** Juillet-Août 2023 (stage de 2024)  
+**Période :** Juillet-Août 2024 (stage de 2024)  
 **École :** École Marocaine des Sciences et d'Ingénieurs (EMSI)  
 **Entreprise :** Office Chérifien des Phosphates (OCP)  
 **Lieu :** Khouribga, Maroc  
