@@ -1,0 +1,26 @@
+<?php
+// Connexion PDO centralisée à la base de données
+// Compatible PHP 8+, avec gestion d'erreurs moderne
+//
+// INSTRUCTIONS :
+// 1. Copiez ce fichier vers connexiondb.php
+// 2. Modifiez les paramètres de connexion selon votre environnement
+
+try {
+    $pdo = new PDO(
+        "mysql:host=localhost;dbname=ocp_teamhub;charset=utf8mb4",
+        "root",      // Utilisateur MySQL - MODIFIEZ SELON VOTRE CONFIGURATION
+        ""           // Mot de passe MySQL - MODIFIEZ SELON VOTRE CONFIGURATION
+    );
+
+    // Mode d'erreur explicite et sécurité renforcée
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $pdo->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+    $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+} catch (PDOException $e) {
+    // Message neutre pour l'utilisateur, log technique possible côté serveur
+    die('Erreur de connexion à la base de données. Veuillez contacter l\'administrateur.');
+}
+
+// Ce fichier permet de connecter l'application à la base des données.
+

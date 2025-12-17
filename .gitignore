@@ -1,0 +1,75 @@
+# Fichiers de configuration sensibles
+pages/connexiondb.php
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+._*
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Fichiers d'éditeur
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# Fichiers de sauvegarde
+*.bak
+*.backup
+*_old.php
+*_backup.php
+
+# Fichiers de session PHP
+sessions/
+tmp/
+
+# Fichiers uploadés par les utilisateurs (photos des gestionnaires)
+# Décommentez la ligne suivante si vous ne voulez pas versionner les photos uploadées
+# images/*.jpg
+# images/*.jpeg
+# images/*.png
+# images/*.gif
+# (Gardez les logos et images statiques du projet)
+
+# Fichiers de base de données (sauf le script SQL d'exemple)
+# Décommentez si vous ne voulez pas versionner le script SQL
+# base de données/*.sql
+
+# Fichiers de configuration XAMPP/WAMP/MAMP
+.htaccess.local
+config.local.php
+
+# Fichiers de dépendances (si vous utilisez Composer)
+vendor/
+composer.lock
+
+# Fichiers de node (si vous utilisez npm)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Fichiers de build
+dist/
+build/
+
+# Fichiers de test
+tests/coverage/
+.phpunit.result.cache
+
+# Fichiers d'environnement
+.env
+.env.local
+.env.*.local
+

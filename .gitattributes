@@ -1,0 +1,26 @@
+# Normaliser les fins de ligne
+* text=auto
+
+# Fichiers texte
+*.php text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.md text eol=lf
+*.sql text eol=lf
+
+# Fichiers binaires
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.eot binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.svg binary
+
+# Fichiers système
+.DS_Store -text
+Thumbs.db -text
+
